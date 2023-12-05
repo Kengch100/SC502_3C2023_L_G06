@@ -9,7 +9,7 @@
   <meta content="Free HTML Templates" name="description" />
 
   <!-- Favicon -->
-  <link href="../img/favicon.ico" rel="icon" />
+  <link href=".../img/favicon.ico" rel="icon" />
 
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -203,9 +203,9 @@
   <script src="../mail/contact.js"></script>
 
 
-  <!-- <script src="../js/main.js"></script>
-  <script src="../js/citas.js"></script> -->
-  
+  <!--  -->
+  <script src="../js/main.js"></script>
+  <script src="../js/citas.js"></script>
 </body>
 
 </html>

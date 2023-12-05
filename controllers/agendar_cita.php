@@ -1,6 +1,6 @@
 <?php
 // Conexión a la base de datos
-include '..//controllers/conexion.php';
+include '../controllers/conexion.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Obtener datos del formulario

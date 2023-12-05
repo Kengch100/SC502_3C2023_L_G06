@@ -2,7 +2,7 @@
     <div class="container pt-5">
       <div class="row">
         <div class="col-lg-6 pr-lg-5 mb-5">
-          <a href="..//views/index.html" class="navbar-brand">
+          <a href="../views/index.php" class="navbar-brand">
             <h1 class="mb-3 text-white">
               <span class="text-primary">Salon</span> de Belleza
             </h1>
@@ -29,7 +29,7 @@
             <div class="col-sm-6 mb-5">
               <h5 class="text-white text-uppercase mb-4">Atajos</h5>
               <div class="d-flex flex-column justify-content-start">
-                <a class="text-white-50 mb-2" href=".//index.html"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
+                <a class="text-white-50 mb-2" href="../views/index.php"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
                 <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Sobre nosotros</a>
                 <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Servicios</a>
                 <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Contactenos</a>

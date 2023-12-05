@@ -34,7 +34,7 @@
   <!-- Navbar Start -->
   <div class="container-fluid p-0">
     <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
-      <a href="..//views/index.html" class="navbar-brand ml-lg-3">
+      <a href="../views/index.php" class="navbar-brand ml-lg-3">
         <h1 class="m-0 text-primary">
           <img src="../img/angel.png" width="10%">
           <span class="text-dark">Salon de </span> Belleza
@@ -45,18 +45,12 @@
       </button>
       <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
         <div class="navbar-nav m-auto py-0">
-          <a href="about.html" class="nav-item nav-link">Sobre Nosotros</a>
-          <a href="service.html" class="nav-item nav-link">Servicios</a>
-          <a href="price.html" class="nav-item nav-link">Productos</a>
-          <div class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Más</a>
-            <div class="dropdown-menu rounded-0 m-0">
-              <a href="appointment.html" class="dropdown-item active">Citas</a>
-              <a href="opening.html" class="dropdown-item">Horarios</a>
-              <a href="testimonial.html" class="dropdown-item">Opiniones</a>
-            </div>
-          </div>
-          <a href="contact.html" class="nav-item nav-link">Contactenos</a>
+          <a href="login.php" class="nav-item nav-link">iniciar sesion</a>
+          <a href="about.php" class="nav-item nav-link">Sobre Nosotros</a>
+          <a href="service.php" class="nav-item nav-link">Servicios</a>
+          <a href="productos.php" class="nav-item nav-link">Productos</a>
+          <a href="appointment.php" class="nav-item nav-link">Citas</a>
+          <a href="contact.php" class="nav-item nav-link">Contactenos</a>
         </div>
         
       </div>

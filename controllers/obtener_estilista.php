@@ -1,5 +1,5 @@
 <?php
-include '..//controllers/conexion.php';
+include '../controllers/conexion.php';
 
 // Obtener estilistas desde la base de datos
 $sql = "SELECT id_estilista, nombre_estilista FROM estilistas";
