@@ -115,4 +115,16 @@ function cargarEstilistas() {
     });
 }
 
+
+function mostrarAlertaExito() {
+    Swal.fire({
+        icon: 'success',
+        title: '¡Inicio de sesión exitoso!',
+        text: 'Ahora estás en la página principal',
+        confirmButtonColor: '#3085d6',
+        confirmButtonText: 'OK'
+    });
+}
+
+
     

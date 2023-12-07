@@ -21,11 +21,11 @@ class RegisterController {
             if ($this->isEmailRegistered($email)) {
                 echo 'Este correo electrónico ya está registrado.';
             } else {
-                // Accede a la conexión usando el método getConnection
-                $conn = $this->userModel->getConnection();
+                // Hash de la contraseña antes de almacenarla
+                $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
-                // Luego utiliza la conexión para registrar al usuario
-                $this->userModel->registerUser($email, $password, $nombre);
+                // Registra al usuario
+                $this->userModel->registerUser($email, $hashedPassword, $nombre);
 
                 echo 'Registro exitoso. Ahora puedes iniciar sesión.';
             }
@@ -33,15 +33,7 @@ class RegisterController {
     }
 
     private function isEmailRegistered($email) {
-        $conn = $this->userModel->getConnection();
-        $stmt = $conn->prepare("SELECT * FROM usuarios WHERE email = ?");
-        $stmt->bind_param("s", $email);
-        $stmt->execute();
-
-        $result = $stmt->get_result();
-        $stmt->close();
-
-        return $result->num_rows > 0;
+        return $this->userModel->isEmailRegistered($email);
     }
 }
 ?>

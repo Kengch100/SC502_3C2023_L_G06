@@ -45,7 +45,8 @@
       </button>
       <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
         <div class="navbar-nav m-auto py-0">
-          <a href="login.php" class="nav-item nav-link">iniciar sesion</a>
+          <a href="register.php" class="nav-item nav-link">Iniciar Sesion 
+           Registrarse</a>
           <a href="about.php" class="nav-item nav-link">Sobre Nosotros</a>
           <a href="service.php" class="nav-item nav-link">Servicios</a>
           <a href="productos.php" class="nav-item nav-link">Productos</a>

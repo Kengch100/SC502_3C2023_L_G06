@@ -17,13 +17,17 @@ class LoginController {
             $email = $_POST['email'];
             $password = $_POST['password'];
 
-            if ($this->userModel->validateUser($email, $password)) {
-                // Usuario válido, redirigir a la página de inicio
-                header('Location: ../views/index.php');
+            $user = $this->userModel->getUserByEmail($email);
+
+            if ($user && password_verify($password, $user['password'])) {
+                // Iniciar sesión
+                session_start();
+                $_SESSION['email'] = $email;
+                header('Location: ../views/index.php'); // Redirigir a la página principal después del inicio de sesión
             } else {
-                // Usuario no válido, mostrar mensaje de error
-                echo 'Correo electrónico o contraseña incorrectos';
+                header('Location: ../views/register.php');
             }
         }
     }
 }
+?>
