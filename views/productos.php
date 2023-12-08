@@ -19,13 +19,13 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="../lib/animate/animate.min.css" rel="stylesheet">
-    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="../lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="./assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="./assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.all.min.js"></script>
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="../css/style.css" rel="stylesheet">
-    <link href="../css/carrito.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/carrito.css" rel="stylesheet">
 
 </head>
 
@@ -61,7 +61,7 @@
         </div>
         <div class="owl-carousel service-carousel" id="productos">
         <div class="service-item position-relative">
-                <img class="img-fluid" src="../img/corte1.jpg" alt="">
+                <img class="img-fluid" src="./assets/img/corte1.jpg" alt="">
                 <div class="service-text text-center producto" data-nombre="Corte de cabello" data-precio="20.00">
                     <h4 class="text-white font-weight-medium px-3">Corte de cabello</h4>
                     <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum</p>
@@ -71,7 +71,7 @@
                 </div>
             </div>
             <div class="service-item position-relative">
-                <img class="img-fluid" src="../img/service-1.jpg" alt="">
+                <img class="img-fluid" src="./assets/img/service-1.jpg" alt="">
                 <div class="service-text text-center">
                     <h4 class="text-white font-weight-medium px-3">Tratamiento Facial</h4>
                     <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum</p>
@@ -82,7 +82,7 @@
             </div>
 
             <div class="service-item position-relative">
-                <img class="img-fluid" src="../img/producto1.jpg" alt="">
+                <img class="img-fluid" src="./assets/img/producto1.jpg" alt="">
                 <div class="service-text text-center">
                     <h4 class="text-white font-weight-medium px-3">Productos para el cabello</h4>
                     <i>2000</i>
@@ -94,7 +94,7 @@
             </div>
 
             <div class="service-item position-relative">
-                <img class="img-fluid" src="../img/producto2.jpg" alt="">
+                <img class="img-fluid" src="./assets/img/producto2.jpg" alt="">
                 <div class="service-text text-center">
                     <h4 class="text-white font-weight-medium px-3">Skin Care</h4>
                     <i>3000</i>
@@ -105,7 +105,7 @@
                 </div>
             </div>
             <div class="service-item position-relative">
-                <img class="img-fluid" src="../img/producto3.jpg" alt="">
+                <img class="img-fluid" src="./assets/img/producto3.jpg" alt="">
                 <div class="service-text text-center">
                     <h4 class="text-white font-weight-medium px-3">Minoxidil para Hombre</h4>
                     <i>3000</i>
@@ -136,21 +136,21 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="../lib/easing/easing.min.js"></script>
-    <script src="../lib/waypoints/waypoints.min.js"></script>
-    <script src="../lib/counterup/counterup.min.js"></script>
-    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="../lib/tempusdominus/js/moment.min.js"></script>
-    <script src="../lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="./assets/lib/easing/easing.min.js"></script>
+    <script src="./assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="./assets/lib/counterup/counterup.min.js"></script>
+    <script src="./assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./assets/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="./assets/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="./assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Contact Javascript File -->
-    <script src="../mail/jqBootstrapValidation.min.js"></script>
-    <script src="../mail/contact.js"></script>
+    <script src="./assets/mail/jqBootstrapValidation.min.js"></script>
+    <script src="./assets/mail/contact.js"></script>
 
     <!-- Template Javascript -->
-    <script src="../js/main.js"></script>
-    <script src="../js/citas.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/citas.js"></script>
 </body>
 
 </html>

@@ -40,6 +40,17 @@ class UserModel {
 
         return $user;
     }
+
+    public function isEmailRegistered($email) {
+        $stmt = $this->conn->prepare("SELECT * FROM usuarios WHERE email = ?");
+        $stmt->bind_param("s", $email);
+        $stmt->execute();
+
+        $result = $stmt->get_result();
+        $stmt->close();
+
+        return $result->num_rows > 0;
+    }
 }
 
 ?>

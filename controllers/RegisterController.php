@@ -27,7 +27,7 @@ class RegisterController {
                 // Registra al usuario
                 $this->userModel->registerUser($email, $hashedPassword, $nombre);
 
-                echo 'Registro exitoso. Ahora puedes iniciar sesión.';
+                header('Location: ../views/index.php');
             }
         }
     }

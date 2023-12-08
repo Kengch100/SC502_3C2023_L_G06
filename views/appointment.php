@@ -9,7 +9,7 @@
   <meta content="Free HTML Templates" name="description" />
 
   <!-- Favicon -->
-  <link href=".../img/favicon.ico" rel="icon" />
+  <link href="./assets./img/favicon.ico" rel="icon" />
 
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -19,12 +19,12 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
 
   <!-- Libraries Stylesheet -->
-  <link href="lib/animate/animate.min.css" rel="stylesheet" />
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-  <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+  <link href="./assetslib/animate/animate.min.css" rel="stylesheet" />
+  <link href="./assetslib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="./assetslib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
   <!-- Customized Bootstrap Stylesheet -->
-  <link href="../css/style.css" rel="stylesheet" />
+  <link href="./assets/css/style.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.all.min.js"></script>
 </head>
 
@@ -144,7 +144,7 @@
       <div class="row">
         <div class="col-lg-6" style="min-height: 500px">
           <div class="position-relative h-100">
-            <img class="position-absolute w-100 h-100" src="../img/opening.jpg" style="object-fit: cover" />
+            <img class="position-absolute w-100 h-100" src="./assets/img/opening.jpg" style="object-fit: cover" />
           </div>
         </div>
         <div class="col-lg-6 pt-5 pb-lg-5">
@@ -172,7 +172,7 @@
                 <i class="far fa-circle text-primary mr-3"></i>Domingos : Cerrado
               </li>
             </ul>
-            <a href="../views/appointment.html" class="btn btn-primary mt-2">Agenda</a>
+            <a href="./assets/views/appointment.html" class="btn btn-primary mt-2">Agenda</a>
           </div>
         </div>
       </div>
@@ -190,22 +190,22 @@
   <!-- JavaScript Libraries -->
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/tempusdominus/js/moment.min.js"></script>
-  <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-  <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+  <script src="./assetslib/easing/easing.min.js"></script>
+  <script src="./assetslib/waypoints/waypoints.min.js"></script>
+  <script src="./assetslib/counterup/counterup.min.js"></script>
+  <script src="./assetslib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="./assetslib/tempusdominus/js/moment.min.js"></script>
+  <script src="./assetslib/tempusdominus/js/moment-timezone.min.js"></script>
+  <script src="./assetslib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
   <!-- Contact Javascript File -->
-  <script src="../mail/jqBootstrapValidation.min.js"></script>
-  <script src="../mail/contact.js"></script>
+  <script src="./assets/mail/jqBootstrapValidation.min.js"></script>
+  <script src="./assets/mail/contact.js"></script>
 
 
   <!--  -->
-  <script src="../js/main.js"></script>
-  <script src="../js/citas.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/citas.js"></script>
 
 </body>
 

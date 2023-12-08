@@ -48,8 +48,7 @@
           <a href="register.php" class="nav-item nav-link">Iniciar Sesion 
            Registrarse</a>
           <a href="about.php" class="nav-item nav-link">Sobre Nosotros</a>
-          <a href="service.php" class="nav-item nav-link">Servicios</a>
-          <a href="productos.php" class="nav-item nav-link">Productos</a>
+          <a href="productos.php" class="nav-item nav-link">Productos / Servicios</a>
           <a href="appointment.php" class="nav-item nav-link">Citas</a>
           <a href="contact.php" class="nav-item nav-link">Contactenos</a>
         </div>
