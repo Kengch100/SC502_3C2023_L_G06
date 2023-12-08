@@ -22,34 +22,21 @@
     <link href="../lib/animate/animate.min.css" rel="stylesheet">
     <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="../lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.all.min.js"></script>
     <!-- Customized Bootstrap Stylesheet -->
     <link href="../css/style.css" rel="stylesheet">
-    <link href="../css/productos.css" rel="stylesheet">
+    <link href="../css/carrito.css" rel="stylesheet">
+
 </head>
 
 <body>
     <!-- Topbar Start -->
 <?php include 'header.php'?>
     <!-- Navbar End -->
-    <div class="container-cart-icon">
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="icon-cart"
-        >
-            <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
-            />
-        </svg>
-        <div class="count-products">
-            <span id="contador-productos">0</span>
-        </div>
+
+    <div id="carrito-icon" onclick="mostrarCarrito()">
+        <div class="fas fa-shopping-cart"></div>
+        <i id="carrito-contador">0</i>
     </div>
 
     <!-- Header Start -->
@@ -72,14 +59,14 @@
                 <h1>Productos y servicios</h1>
             </div>
         </div>
-        <div class="owl-carousel service-carousel">
-            <div class="service-item position-relative">
+        <div class="owl-carousel service-carousel" id="productos">
+        <div class="service-item position-relative">
                 <img class="img-fluid" src="../img/corte1.jpg" alt="">
-                <div class="service-text text-center">
+                <div class="service-text text-center producto" data-nombre="Corte de cabello" data-precio="20.00">
                     <h4 class="text-white font-weight-medium px-3">Corte de cabello</h4>
                     <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum</p>
-                    <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="">Agendar</a>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button class="btn btn-primary" href="">Agendar</button>
                     </div>
                 </div>
             </div>
@@ -89,27 +76,31 @@
                     <h4 class="text-white font-weight-medium px-3">Tratamiento Facial</h4>
                     <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum</p>
                     <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="">Agendar</a>
+                        <a class="btn btn-primary"  >Agendar</a>
                     </div>
                 </div>
             </div>
+
             <div class="service-item position-relative">
                 <img class="img-fluid" src="../img/producto1.jpg" alt="">
                 <div class="service-text text-center">
                     <h4 class="text-white font-weight-medium px-3">Productos para el cabello</h4>
+                    <i>2000</i>
                     <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum</p>
                     <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="">Comprar</a>
+                        <a class="btn btn-primary" onclick="agregarAlCarrito('Productos para el cabello', 20.00)">Comprar</a>
                     </div>
                 </div>
             </div>
+
             <div class="service-item position-relative">
                 <img class="img-fluid" src="../img/producto2.jpg" alt="">
                 <div class="service-text text-center">
                     <h4 class="text-white font-weight-medium px-3">Skin Care</h4>
+                    <i>3000</i>
                     <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum</p>
                     <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="">Agendar</a>
+                        <a class="btn btn-primary" onclick="agregarAlCarrito('Skin Care', 30.00)">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -117,9 +108,10 @@
                 <img class="img-fluid" src="../img/producto3.jpg" alt="">
                 <div class="service-text text-center">
                     <h4 class="text-white font-weight-medium px-3">Minoxidil para Hombre</h4>
+                    <i>3000</i>
                     <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum</p>
                     <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="">Comprar</a>
+                        <a class="btn btn-primary" onclick="agregarAlCarrito('Minoxidil para Hombre', 30.00)">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -158,6 +150,7 @@
 
     <!-- Template Javascript -->
     <script src="../js/main.js"></script>
+    <script src="../js/citas.js"></script>
 </body>
 
 </html>

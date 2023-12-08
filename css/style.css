@@ -9705,12 +9705,3 @@ h6,
 }
 
 
-.icon-cart{
-  width: 40px;
-  height: 40px;
-  stroke: #000;
-}
-
-.icon-cart:hover{
-  cursor: pointer;
-}
