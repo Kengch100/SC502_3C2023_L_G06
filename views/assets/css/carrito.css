@@ -1,0 +1,43 @@
+
+
+.service-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.service-item:hover .service-text {
+    opacity: 1;
+}
+
+#carrito-icon {
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #3498db;
+    z-index: 1000;
+}
+
+#carrito-contador {
+    position: absolute;
+    top: 5px; /* Ajusta según tus necesidades */
+    right: 25px; /* Ajusta según tus necesidades */
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 50%;
+    font-size: 12px;
+    
+}
